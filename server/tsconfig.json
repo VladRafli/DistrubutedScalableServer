@@ -4,6 +4,10 @@
       "outDir": "dist",
       "strict": true,
       "lib": ["esnext"],
-      "esModuleInterop": true
+      "esModuleInterop": true,
+      "moduleResolution": "Node",
+      "resolveJsonModule": true,
+      "module": "ES2022",
+      "target": "ES2022"
     }
   }
